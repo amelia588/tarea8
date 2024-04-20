@@ -1,0 +1,139 @@
+
+ /* Estilo para el fondo de toda la página */
+body {
+    background-color: #f0f2f5; /* Color de fondo claro */
+    background-image: url('path-to-your-background-image.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Cubre toda la pantalla */
+    background-position: center center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  }
+  
+  /* Estilo para el fondo del componente de layout de invitado */
+  .guest-layout {
+    background-color: #14F5E0; /* Nuevo color de fondo para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    padding: 20px; /* Espaciado interno */
+    max-width: 400px; /* Ancho máximo para el contenedor */
+    margin: 40px auto; /* Centrado y con margen superior e inferior */
+    font-family: 'Arial', sans-serif; /* Establece la familia de fuentes para todo el layout */
+    color: #333; /* Color de texto general */
+  }
+  
+  /* Estilo del estado de la sesión */
+  .auth-session-status {
+    background-color: #e3f2fd;
+    border-left: 4px solid #FF33FC; /* Color de la barra izquierda */
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+  }
+  
+  /* Estilo general de los formularios */
+  form {
+    background: #14F5BB; /* Nuevo color de fondo para el formulario */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo de las etiquetas de entrada */
+  .input-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilo de las entradas de texto */
+  .text-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+/* Estilo para el contenedor de todo el formulario con borde de color */
+.form-container {
+    border: 2px solid  hsl(197, 100%, 60%); /* Color de borde para el contenedor exterior del formulario */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #3af115; /* Fondo del contenedor */
+  }
+  /* Estilo de errores de entrada */
+  .input-error {
+    color: #e53e3e;
+    font-size: 0.8em;
+  }
+  
+  /* Estilo del checkbox 'Remember Me' */
+  #remember_me {
+    margin-right: 10px;
+  }
+  
+  /* Estilo del enlace 'Forgot your password?' */
+  .password-request {
+    color: #e71010;
+    text-decoration: underline;
+    font-size: 0.9em;
+  }
+  
+  /* Estilo del botón principal de login */
+  .primary-button {
+    background-color: #FF33FC; /* Color del botón */
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .primary-button:hover {
+    background-color: #d32ce6; /* Oscurecer el botón al pasar el mouse */
+  }
+  
+  /* Estilo para el contenedor de los elementos del formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Utilidades para flex y centrado */
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  /* Estilos para espaciado específico */
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .ms-3 {
+    margin-left: 1rem;
+  }
+  
+  
+  /* Estilos para espaciado específico */
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .ms-3 {
+    margin-left: 1rem;
+  }
+  
